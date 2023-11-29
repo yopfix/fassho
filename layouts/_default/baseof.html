@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#FFFFFF"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="PWABuilder">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/logo/favicon32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/logo/favicon16.png">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="anonymous" />
+    {{ partial "headscript.html" }}
+    {{ partial "style.html" }}
+</head>
+<body>
+    {{ block "main" . }}{{ end }}
+    {{ block "footer" . }}{{ end }}
+    {{ partial "footerscript.html" }}
+</body>
+</html>
