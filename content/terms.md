@@ -1,7 +1,0 @@
----
-title: 'Terms'
----
-
-# Term 
-
-[Home](/)
