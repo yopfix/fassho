@@ -1,0 +1,14 @@
+baseURL = 'https://yopfix.github.io/'
+languageCode = 'en-us'
+title = 'YopFix'
+
+[params]
+  description = 'Its easier to help'
+  images = ['site-feature-image.jpg']
+  title = 'YopFix'
+
+[markup.goldmark.renderer]
+    unsafe = true
+
+[minify]
+minifyOutput = true  
