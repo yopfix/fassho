@@ -20,15 +20,14 @@
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
 </head>
-<body >
+<body>
+    
     <noscript>This website require Javascript to function properly</noscript>
-    <div id="app" data-view="loading">
-  
-    <div class="uk-container">
-        
+    <div id="q-app">
         {{ block "main" . }}{{ end }}
         {{ block "footer" . }}{{ end }}
     </div>
+    
     {{ partial "footerscript.html" }}
 </body>
 </html>

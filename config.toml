@@ -1,6 +1,6 @@
-baseURL = 'https://yopfix.github.io/'
-languageCode = 'en-us'
-title = 'YopFix'
+baseURL = 'https://fassho.com/'
+languageCode = 'My-ms'
+title = 'Fasli Shoaib'
 
 [params]
   description = 'Its easier to help'
