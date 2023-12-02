@@ -24,8 +24,15 @@
     
     <noscript>This website require Javascript to function properly</noscript>
     <div id="q-app">
-        {{ block "main" . }}{{ end }}
+        <q-layout view="lhr LpR lfr">
+            <q-page-container>
+                <q-page>
+                {{ block "main" . }}{{ end }}
+                </q-page>
+            </q-page-container>
+        
         {{ block "footer" . }}{{ end }}
+        </q-layout>
     </div>
     
     {{ partial "footerscript.html" }}
