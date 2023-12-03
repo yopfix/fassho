@@ -23,18 +23,20 @@
 <body>
     
     <noscript>This website require Javascript to function properly</noscript>
-    <div id="q-app">
+    <!-- <div id="q-app">
         <q-layout view="lhr LpR lfr">
             <q-page-container>
                 <q-page>
-                {{ block "main" . }}{{ end }}
+                
                 </q-page>
             </q-page-container>
         
-        {{ block "footer" . }}{{ end }}
+        
         </q-layout>
-    </div>
-    
+    </div> -->
+    {{ block "main" . }}{{ end }}
+    <img src="https://www.seoclerk.com/pics/000/850/052/8cab321be44fc1ef93910808b4c28a77.jpg" width="4500" height="3000" alt="">
+    {{ block "footer" . }}{{ end }}
     {{ partial "footerscript.html" }}
 </body>
 </html>

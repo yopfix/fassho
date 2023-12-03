@@ -14,3 +14,10 @@ Hello This is not a fake. For sure [contact](/contact/)
 ## Unsupported platforms
 
 Is it working _ Not really
+
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
